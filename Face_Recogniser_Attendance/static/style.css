@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    font-family: Arial;
+    color: white;
+    text-align: center;
+  }
+  
+  .card {
+    background: rgba(0,0,0,0.3);
+    padding: 25px;
+    margin: 60px auto;
+    width: 360px;
+    border-radius: 10px;
+  }
+  
+  .camera {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #00e6e6;
+    cursor: pointer;
+  }
+  
+  a {
+    display: block;
+    margin-top: 12px;
+    color: #00e6e6;
+    text-decoration: none;
+  }
+  

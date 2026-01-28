@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Face Attendance System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="card">
+  <h1>Face Attendance System</h1>
+
+  <!-- LIVE CAMERA -->
+  <img src="{{ url_for('video_feed') }}" class="camera">
+
+  <form action="/register" method="post">
+    <input type="text" name="name" placeholder="Enter name" required>
+    <button>Register New Person</button>
+  </form>
+
+  <a href="/checkin">Check-In</a>
+  <a href="/checkout">Check-Out</a>
+</div>
+
+</body>
+</html>
