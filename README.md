@@ -65,6 +65,20 @@ python app.py
 3. Open the browser and go to:
 http://127.0.0.1:5000
 
+## Demo Video
+
+A short demo showing all features of the system:
+
+[Watch Demo on Google Drive](https://drive.google.com/file/d/1SOH97ZfyUPz_PFIxFjanMdVM52yvcn-T/view)
+
+The demo includes:
+- Registering a new user
+- Face-based Check-In
+- Face-based Check-Out
+- Handling unknown faces
+- Viewing attendance CSV
+
+
 ## Limitations
 
 - The system performs best in good lighting conditions.
